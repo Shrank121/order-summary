@@ -1,0 +1,140 @@
+body{
+    font-family: inter, sans-serif;
+    background-color: #E2EBF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+P{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.bg-pattern{
+    width: 100%;
+    position: absolute;
+    top: -150px;
+    left: 0;
+    z-index: -1;
+}
+
+.order-card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    border-radius: 16px;
+    background-color: #ffffff;
+    margin-top: 1rem;
+    z-index: 200;
+}
+
+.thumbnail-container{
+    width: 400px;
+    z-index: 100;
+}
+
+.thumbnail-container img{
+    width: 400px;
+    border-radius: 16px 16px 0 0;
+
+}
+
+.body-container{
+    width: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 24px;
+}
+
+h2{
+    color: #131631;
+    margin-top: 30px;
+}
+
+.body-description{
+    font-size: 1rem;
+    color: gray;
+    line-height: 1.5rem;
+    margin-bottom: 0.75rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.plan-container{
+    display: grid;
+    grid-template-columns: 50px 150px 1fr;
+    column-gap: 0;
+    align-items: center;
+    background-color: #F1F5FA;
+    width: 290px;
+    padding: 12px;
+    border-radius: 12px;
+    margin-bottom: 1.5rem;
+}
+
+
+.music-icon{
+    width: 40px;
+}
+
+.type-of-plan{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.plan-type{
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #131631;
+    margin-bottom: 0.25rem;
+}
+
+.plan-fee{
+    font-size: 0.875rem;
+    color: gray;
+}
+
+.change-plan{
+    font-size: 0.875rem;
+    font-weight: 600;
+    text-decoration: underline;
+    color: #0416B9;
+    margin-left: 1.6rem;
+    cursor: pointer;
+    transition: font-size 0.15s, text-decoration 0.15s;
+}
+
+.change-plan:active{
+    text-decoration: none;
+}
+
+.fill-button{
+    font-size: 0.875rem;
+    color: white;
+    width: 310px;
+    background-color: #0416B9;
+    border-radius: 8px;
+    border: none;
+    margin-top: 0.75rem;
+    margin-bottom: 1.25rem;
+    padding: 12px;
+    box-shadow: 4px 8px 8px 6px #CEDCF0;
+    cursor: pointer;
+    transition: opacity 0.15s;
+}
+
+.fill-button:active{
+    opacity: 0.8;
+}
+
+.inactive-button{
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: #989AAA;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
